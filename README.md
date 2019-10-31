@@ -5,13 +5,13 @@ Automatically reconize actions and filters and use the right JSON file.
 
 ## Installation
 
-With vim-plug
+With vundle
 
 ```
-Plug 'mte90/deoplete-wp-hooks'
+Plugin 'mte90/deoplete-wp-hooks', { 'do': './install.sh' }
 ```
 
-You may need to `:UpdateRemotePlugins`
+Autoamtically will download the latest version of the JSON files.
 
 ## Parameters
 
