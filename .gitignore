@@ -1,1 +1,2 @@
 ./wp-hooks/*.json 
+__pycache__

@@ -42,7 +42,7 @@ class Source(Base):
         text_input = text_input.replace('remove_action', '').replace('remove_filter', '')
         text_input = text_input.replace('add_action','').replace('add_filter', '')
         text_input = text_input.replace('"', '').replace('\'', '')
-        text_input = text_input.replace('(', '').replace(')', '')
+        text_input = text_input.replace('(', '').replace(')', '').strip()
 
         if text_input == '':
             return candidates
