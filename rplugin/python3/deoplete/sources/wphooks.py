@@ -14,7 +14,7 @@ class Source(Base):
         self.matchers = ['matcher_head']
         self.rank = 100
         self.min_pattern_length = 0
-        self.wphooks_dir = os.path.expanduser("~/.vim/bundle/deoplete-wp-hooks/wp-hooks/")
+        self.wphooks_dir = os.path.expanduser("~/.vim/plugged/deoplete-wp-hooks/wp-hooks/")
         self.filetypes = ['php']
         self.is_debug_enabled = False
         self.is_volatile = True
